@@ -47,8 +47,3 @@ Thumbs.db
 .claude/
 .codex/
 .agents/
-
-# Generated local export artifacts
-local_setup.pdf
-system_design.pdf
-agent_tooling_writeup.docx

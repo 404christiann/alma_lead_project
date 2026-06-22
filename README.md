@@ -131,3 +131,5 @@ docker compose up --build
 ## Email Configuration
 
 By default, `RESEND_FROM_EMAIL` is set to `onboarding@resend.dev`, which works without domain verification but only delivers to the Resend account owner's email. To receive emails at `ATTORNEY_EMAIL`, update `RESEND_FROM_EMAIL` in `.env` to a domain you've verified in your [Resend dashboard](https://resend.com/domains).
+
+To enable email sending locally, create a free Resend account at https://resend.com, open https://resend.com/api-keys, create an API key with **Sending access**, and paste it into `.env` as `RESEND_API_KEY`. Keep the real key out of `.env.example` and version control.
